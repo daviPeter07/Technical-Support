@@ -4,7 +4,7 @@
 
 O **Sistema de Suporte Técnico** é uma aplicação web full stack criada para gerenciar solicitações de suporte técnico de forma ágil, moderna e responsiva. Ele permite que usuários registrem chamados, técnicos acompanhem a resolução e admins tenham controle completo dos dados e usuários.
 
-> Projeto desenvolvido por **Davi Peterson** e **@willsx69**
+> Projeto desenvolvido por **Davi Peterson** e **William Breno**
 
 ---
 
@@ -23,33 +23,7 @@ O **Sistema de Suporte Técnico** é uma aplicação web full stack criada para 
 
 ### Banco de dados:
 
-* **PostgreSQL** (ou outro, a definir com Prisma)
-
----
-
-## 🧩 Estrutura do Projeto
-
-```bash
-/suporte-tecnico
-│
-├── /frontend
-│   ├── index.html
-│   ├── /assets
-│   ├── /pages
-│   └── main.js
-│
-├── /backend
-│   ├── server.js
-│   ├── /controllers
-│   ├── /routes
-│   ├── /prisma
-│   └── /middleware
-│
-├── /docs
-│   └── README.md
-│
-└── package.json
-```
+* **MongoDB**
 
 ---
 
@@ -114,54 +88,7 @@ npm run dev
 
 ---
 
-## 🗓️ Roadmap Detalhado
-
-### 🧱 Fase 1 – Setup e Base do Projeto
-
-* [x] Estruturação do repositório e pastas (`/frontend`, `/backend`)
-* [x] Configuração do Tailwind CSS
-* [x] Inicialização do projeto Node.js e Prisma ORM
-* [x] Conexão com banco de dados e migração inicial
-* [ ] Criação de sistema de rotas no backend
-* [ ] Setup de ambiente `.env` e variáveis seguras
-
-### 🔐 Fase 2 – Autenticação
-
-* [ ] Cadastro de usuário (cliente, técnico, admin)
-* [ ] Login e geração de JWT
-* [ ] Middleware de proteção por tipo de usuário
-* [ ] Validação de sessão no front-end
-
-### 🛠️ Fase 3 – CRUD de Chamados
-
-* [ ] Formulário de abertura de chamado
-* [ ] Listagem de chamados do usuário logado
-* [ ] Visualização e atualização de chamado por técnicos
-* [ ] Histórico e status dos chamados
-
-### 📊 Fase 4 – Painéis e Dashboard
-
-* [ ] Painel técnico: lista de chamados atribuídos
-* [ ] Painel admin: métricas, gráficos e gestão de usuários
-* [ ] Filtros por status, data e categoria
-
-### 🎨 Fase 5 – Front-end UX/UI
-
-* [ ] Responsividade mobile
-* [ ] Layout limpo com feedback visual
-* [ ] Notificações de status (toasts/alerts)
-* [ ] Página de erro e loading states
-
-### 🚀 Fase 6 – Deploy & Documentação
-
-* [ ] Deploy do backend (Railway ou Render)
-* [ ] Deploy do frontend (Vercel)
-* [ ] Documentação técnica da API
-* [ ] Readme com instruções de uso
-
----
-
 ## 👥 Autores
 
 * [Davi Peterson](https://github.com/drax-dev173)
-* [@willsx69](https://github.com/willsx69)
+* [William Breno](https://github.com/willsx69)
