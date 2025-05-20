@@ -4,21 +4,24 @@
 
 O **Sistema de Suporte Técnico** é uma aplicação web full stack criada para gerenciar solicitações de suporte técnico de forma ágil, moderna e responsiva. Ele permite que usuários registrem chamados, técnicos acompanhem a resolução e admins tenham controle completo dos dados e usuários.
 
-> Projeto desenvolvido por **Davi Peterson** e **William Breno**
+> Projeto desenvolvido por **Davi Peterson**, **William Breno** e **Raquel Alencar**
 
 ---
 
 ## 🚀 Tecnologias Utilizadas
 
+## Ux Design
+* **FIGMA** — interface visual responsiva para desktop e mobile
+
 ### Front-end:
 
 * **HTML5** — estrutura semântica da aplicação
 * **Tailwind CSS** — estilização utilitária e responsiva
-* **JavaScript (Vanilla)** — lógica da interface e integração com o backend
+* **JavaScript** — lógica da interface e integração com o backend
 
 ### Back-end:
 
-* **Node.js + JavaScript** — execução da lógica de servidor
+* **Node.js** — execução da lógica de servidor
 * **Prisma ORM** — acesso ao banco de dados com segurança e tipagem
 
 ### Banco de dados:
@@ -90,5 +93,6 @@ npm run dev
 
 ## 👥 Autores
 
-* [Davi Peterson](https://github.com/drax-dev173)
+* [Davi Peterson](https://github.com/daviPeter07)
 * [William Breno](https://github.com/willsx69)
+* [Raquel Alencar](https://github.com/allwendys)
