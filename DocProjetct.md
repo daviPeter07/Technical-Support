@@ -9,7 +9,7 @@ src/
 ├── routes/          # Definição das rotas da API
 ├── services/        # Lógica de negócio reutilizável
 └── utils/           # Funções auxiliares (ex: gerar token, hash de senha)
-
+```
 
 ## 🔐 JWT (JSON Web Token)
 JWT é um token que o backend gera após o login. O token serve como “crachá” digital que o frontend envia nas requisições para acessar rotas protegidas.
