@@ -71,7 +71,7 @@ git clone https://github.com/drax-dev173/suporte-tecnico.git
 2. Instale as dependências:
 
 ```bash
-cd suporte-tecnico
+cd sistemaNome
 npm install
 ```
 
